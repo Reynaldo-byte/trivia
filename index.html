@@ -1,0 +1,26 @@
+
+<!doctype html>
+<html>
+    <head>
+        <title>Trivia Challenge</title>
+        <script type="text/javascript" src="prueba.json"></script>
+        <script type="text/javascript" src="extraer.js"></script>
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+    </head>
+    <body onload="cargar_preguntas()">
+
+        <div id="inicio">
+            <h1>Welcome to the Trivia Challenge</h1>
+            <h3>You will be presented with 10 True or False questions.</h3>
+            <h3>Can you score 100%</h3>
+            <button onclick="comenzar()">BEGIN</button>
+        </div>
+        <div id="preguntas" hidden>
+                            <div id="fin" hidden>
+                                <h3>You Scored:</h3>
+            <p id="puntaje" hidden></p>
+        </div><br>
+            
+        </div>
+
+</html>
